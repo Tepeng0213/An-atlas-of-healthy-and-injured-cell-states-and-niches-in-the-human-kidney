@@ -1,0 +1,20 @@
+# Core single-cell analysis
+scanpy>=1.10.0
+anndata>=0.10.0
+leidenalg>=0.10.0
+python-igraph>=0.11.0
+
+# Plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Data handling
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+h5py>=3.10.0
+
+# Optional: spatial / niche analysis (uncomment when needed)
+# squidpy>=1.4.0
+# spatialdata>=0.2.0

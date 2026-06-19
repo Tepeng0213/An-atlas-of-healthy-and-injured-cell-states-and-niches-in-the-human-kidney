@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files — use Drive or external download)
+data/raw/
+data/processed/
+*.h5ad
+*.h5
+*.loom
+*.mtx.gz
+*.tar.gz
+*.zip
+*.pdf
+
+# Outputs
+figures/*.png
+figures/*.pdf
+figures/*.svg
+!figures/.gitkeep
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Colab MCP auth tokens (never commit)
+.colab-mcp-auth-token.json
+**/token.json
