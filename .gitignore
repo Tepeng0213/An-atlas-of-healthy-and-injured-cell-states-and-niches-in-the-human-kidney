@@ -9,7 +9,12 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (large files — use Drive or external download)
+# Cursor / Colab MCP（本地开发用，不上传 GitHub）
+.cursor/
+docs/
+scripts/
+
+# 大型数据文件（不上传，放 Google Drive）
 data/raw/
 data/processed/
 *.h5ad
@@ -20,17 +25,11 @@ data/processed/
 *.zip
 *.pdf
 
-# Outputs
-figures/*.png
-figures/*.pdf
-figures/*.svg
-!figures/.gitkeep
-
 # OS & IDE
 .DS_Store
 .idea/
 .vscode/
 
-# Colab MCP auth tokens (never commit)
+# 敏感 token
 .colab-mcp-auth-token.json
 **/token.json

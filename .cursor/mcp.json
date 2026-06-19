@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "colab-proxy-mcp": {
-      "command": "/Users/schmit/.local/bin/uvx",
-      "args": ["git+https://github.com/googlecolab/colab-mcp"],
-      "timeout": 300000
-    }
-  }
-}
