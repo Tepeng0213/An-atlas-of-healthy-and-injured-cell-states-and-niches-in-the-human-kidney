@@ -14,6 +14,9 @@ numpy>=1.26.0
 pandas>=2.1.0
 scipy>=1.11.0
 h5py>=3.10.0
+pyarrow>=15.0.0
+scikit-learn>=1.3.0
+rdata>=0.17.0
 
 # Optional: spatial / niche analysis (uncomment when needed)
 # squidpy>=1.4.0
