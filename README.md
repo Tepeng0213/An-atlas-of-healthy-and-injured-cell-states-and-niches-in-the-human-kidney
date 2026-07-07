@@ -193,7 +193,6 @@ This pipeline generalizes to studies that require **reference-based annotation**
 | `human_kidney_scrna_atlas_reproduction_Final.ipynb` | Main reproduction notebook (Fig. 1c – 3b) |
 | `kidney_atlas_paths.py` | Unified paths for Colab / RunPod / local |
 | `figures/` | Reproduced figure outputs |
-| `runpod/` | Setup scripts, Drive sync, SSH guide |
 | `requirements.txt` | Python dependencies |
 
 ---
