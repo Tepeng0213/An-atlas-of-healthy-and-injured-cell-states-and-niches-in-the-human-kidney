@@ -186,36 +186,7 @@ This pipeline generalizes to studies that require **reference-based annotation**
 
 ---
 
-## 5. Quick Start
-
-### RunPod + Cursor (recommended)
-
-```bash
-export KIDNEY_ATLAS_ROOT=/workspace/kidney-atlas
-git clone https://github.com/Tepeng0213/An-atlas-of-healthy-and-injured-cell-states-and-niches-in-the-human-kidney.git "$KIDNEY_ATLAS_ROOT"
-bash "$KIDNEY_ATLAS_ROOT/runpod/setup.sh"
-```
-
-Open `/workspace/kidney-atlas` in Cursor via Remote-SSH. See [`runpod/CURSOR_SSH.md`](runpod/CURSOR_SSH.md).
-
-**Suggested Pod spec:** 16 vCPU / 64 GB RAM (CPU-only is sufficient for most modules; Module 10c Seurat benefits from ≥64 GB).
-
-### Google Colab
-
-Use **Open in Colab** above; mount Drive; run modules sequentially. Module 10c (Seurat TransferData) may require high-RAM runtime.
-
-### Data sources
-
-| Resource | Link |
-|----------|------|
-| KPMP Atlas | https://www.kpmp.org/doi-collection/10-48698-3z31-8924 |
-| CZ CELLxGENE | https://cellxgene.cziscience.com/ |
-| GEO Super-series | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183279 |
-| KPMP source code | https://github.com/KPMP/Cell-State-Atlas-2022 |
-
----
-
-## 6. Repository Layout
+## 5. Repository Layout
 
 | Path | Description |
 |------|-------------|
